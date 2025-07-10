@@ -42,9 +42,9 @@ class Boat(Transport):
 
 
 if __name__ == "__main__":
-    car = Car("Toyota", 120, "Gasoline")
-    plane = Plane("Boeing", 900, 2)
-    boat = Boat("Sailboat", 40, "Large sail")
+    car = Car("Toyota", 125, "Gasoline")
+    plane = Plane("Boeing", 910, 2)
+    boat = Boat("Sailboat", 45, "Large sail")
 
     car.move()
     plane.move()
