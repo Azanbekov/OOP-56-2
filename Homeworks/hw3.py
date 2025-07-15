@@ -1,5 +1,5 @@
 #Инкапсуляция
-class Student:
+class Student: 
     def __init__(self, name, grade, password):
         self.name = name            
         self._grade = grade         
@@ -11,9 +11,9 @@ class Student:
     def get_info(self):
        print(f"Имя: {self.name}, Оценка: {self._grade}")
 
-student = Student("Эржан", 46, "12345678")
+student = Student("Эржан", 56, "123456789")
 student.get_info() 
-student.change_password("11223344")
+student.change_password("112233445566")
 
 
 
@@ -51,7 +51,7 @@ class Bike(Vehicle):
 car = Car()
 bike = Bike()
 
-print("мерс:")
+print("мерседес:")
 car.move()
 car.stop()
 
