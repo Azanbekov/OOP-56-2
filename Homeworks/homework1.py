@@ -14,4 +14,3 @@ Mersedes_benz.introduse()
 BMW.introduse()
 print(Mersedes_benz.brand)
 print(f"{BMW.brand} медленне чем {Mersedes_benz.brand}")
-some_text = "Some text"
