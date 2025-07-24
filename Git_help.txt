@@ -1,0 +1,19 @@
+git config --global user.name "Your name"
+git config --global user.name "your email"
+============================================
+  git init | создание скрытого файла .git
+  git remote add origin  https://github.com/Azanbekov/OOP-56-2.git
+
+  git status | команда проверяет состояние проекьа
+  git add . | команда копирует и сохраняет в буфер (невидимо)
+git commit -m "first commit"
+ 
+git push origin master
+git restore . для сброса
+git reset .
+
+feat:update auth user
+update:resetpassword user
+fix: bag create news in top bar
+
+git branch помогает посмотреть ветки
